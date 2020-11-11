@@ -2,8 +2,9 @@ import Head from 'next/head';
 import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Cards from '../src/components/Cards';
-import styles from '../styles/Home.module.css';
 import Footer from '../src/components/Footer';
+
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
