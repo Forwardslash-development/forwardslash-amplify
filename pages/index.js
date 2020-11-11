@@ -3,6 +3,7 @@ import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Cards from '../src/components/Cards';
 import styles from '../styles/Home.module.css';
+import Footer from '../src/components/Footer';
 
 export default function Home() {
   return (
@@ -13,23 +14,10 @@ export default function Home() {
       </Head>
       <Header />
       <Banner />
-      <Cards />
-      <main className={styles.main}></main>
-
-      <footer className={styles.footer}>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <img
-            src='/logo.svg'
-            alt='forwardslash-development.io Logo'
-            className={styles.logo}
-          />
-        </a>
-      </footer>
+      <main className={styles.main}>
+        <Cards />
+      </main>
+      <Footer />
     </div>
   );
 }

@@ -12,7 +12,7 @@ const HeaderRoot = styled(`header`)`
 const HeaderContainer = styled('div')`
   background-color: #000066;
   color: #6ccff6;
-  display: flex;
+  height: 120px;
 `;
 
 const Logo = styled('div')`
@@ -28,7 +28,12 @@ const Logo = styled('div')`
 
 const Title = styled('div')`
   display: inline-block;
-  width: 50vw;
+  width: 30vw;
+  line-height: 1;
+  margin-top: -3px;
+`;
+const Address = styled('div')`
+  margin-top: -12px;
 `;
 
 export function Header() {
@@ -41,6 +46,7 @@ export function Header() {
             <h1>Forwardslash Development</h1>
           </Title>
         </a>
+        <Address>Localhost: Chicago, IL. 60626</Address>
       </HeaderContainer>
     </HeaderRoot>
   );
