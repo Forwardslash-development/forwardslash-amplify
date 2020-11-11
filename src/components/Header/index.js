@@ -4,7 +4,6 @@ import styled from '@emotion/styled';
 const HeaderRoot = styled(`header`)`
   left: 0;
   top: 0;
-  height: 80px;
   width: 100vw;
   position: sticky;
   z-index: 1000;
@@ -12,26 +11,29 @@ const HeaderRoot = styled(`header`)`
 
 const HeaderContainer = styled('div')`
   background-color: #000066;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
   color: #6ccff6;
+  height: 120px;
 `;
 
-const NavRoot = styled('nav')`
-  display: flex;
-  align-items: left;
-  width: 99vw;
+const Logo = styled('div')`
+  display: inline-block;
+  float: left;
+  margin: 1em;
+  background-image: url('/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 72px 72px;
+  width: 74px;
+  height: 74px;
 `;
 
-const Logo = styled('img')`
-  width: 100vwh;
-  height: 100vwh;
-  padding: 1em;
+const Title = styled('div')`
+  display: inline-block;
+  width: 30vw;
+  line-height: 1;
+  margin-top: -3px;
 `;
-
-const Title = styled('h1')`
-  font-size: 42px;
-  display: inline-flex;
-  margin: 0px;
+const Address = styled('div')`
+  margin-top: -12px;
 `;
 
 export function Header() {
@@ -39,10 +41,12 @@ export function Header() {
     <HeaderRoot>
       <HeaderContainer>
         <a href='/'>
-          <Logo src='/images/42xlogo.png' alt='forwardslash-development.io' />
-          <Title>{'Forwardslash Development'}</Title>
+          <Logo alt='forwardslash-development.io' />
+          <Title>
+            <h1>Forwardslash Development</h1>
+          </Title>
         </a>
-        <NavRoot></NavRoot>
+        <Address>Localhost: Chicago, IL. 60626</Address>
       </HeaderContainer>
     </HeaderRoot>
   );
