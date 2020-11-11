@@ -1,32 +1,29 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import styles from './Banner.module.css';
 
 const BannerRoot = styled('div')`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 10vh;
+  height: 50vh;
+  background-image: url('/images/cover.jpeg');
 `;
 
-const Title = styled('h1')`
-  font-size: 45px;
-`;
-
-const SubTitle = styled('h2')`
-  font-size: 20px;
-  margin: 0;
-  font-weight: 300;
-`;
-
-const Cover = styled('img')`
-  width: 100vw;
+const Cover = styled('div')`
+  width: 99.5vw;
+  background-color: #000066;
 `;
 
 function Banner() {
   return (
     <BannerRoot>
-      <Cover src='/images/cover.jpeg' alt='forwardslash-development.io' />
+      <Cover alt='forwardslash-development.io' />
+      <h2 className={styles.subtitle}>
+        Modern Application Development{' '}
+        <code className={styles.code}>progressive web solutions</code>
+      </h2>
     </BannerRoot>
   );
 }
