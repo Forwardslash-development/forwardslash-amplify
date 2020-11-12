@@ -7,9 +7,11 @@ import styles from './Banner.module.css';
 const HeroBox = styled('div')`
   display: block;
   padding: 3rem;
-  background: rgb(0, 0, 102, 0.4);
+  background: rgb(0, 0, 102, 0.2);
   border-radius: 1rem;
-  border: 0.1rem solid #000066;
+  border: 0.1rem solid #fefefe;
+  box-shadow: 4px 8px rgba(108, 207, 246, 0.2),
+    0 6px 20px 0 rgba(108, 207, 246, 0.2);
   z-index: -1;
 `;
 

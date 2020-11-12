@@ -28,7 +28,7 @@ function Cards() {
           className={styles.card}
         >
           <h3>Blog &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <p>The place where we write, when we write</p>
         </a>
 
         <a
