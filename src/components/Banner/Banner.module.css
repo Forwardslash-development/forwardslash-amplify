@@ -62,7 +62,7 @@
   line-height: 1.15;
   font-size: 4rem;
   color: #6ccff6;
-  padding: 0.75rem;
+  opacity: 1;
 }
 
 .description {
@@ -71,11 +71,13 @@
 }
 
 .code {
-  background: #fafafa;
+  display: block;
+  margin-top: 10px;
+  padding: 1rem;
+  background: #6ccff6;
   color: #000066;
   border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -121,6 +123,10 @@
 
 .logo {
   height: 1em;
+}
+.hero {
+  width: 100vw;
+  height: 100px;
 }
 
 @media (max-width: 600px) {
