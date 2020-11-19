@@ -3,7 +3,6 @@ import Header from '../src/components/Header';
 import Banner from '../src/components/Banner';
 import Cards from '../src/components/Cards';
 import Footer from '../src/components/Footer';
-
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -15,9 +14,7 @@ export default function Home() {
       </Head>
       <Header />
       <Banner />
-      <main className={styles.main}>
-        <Cards />
-      </main>
+      <Cards />
       <Footer />
     </div>
   );

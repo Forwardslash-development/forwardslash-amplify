@@ -54,7 +54,7 @@ class LazyHero extends Component {
       backgroundDimensions: null,
       heroDimensions: null,
       image: null,
-      isInViewport: false,
+      isInViewport: true,
     };
     this.handleResize = this.handleResize.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
