@@ -1,10 +1,14 @@
 # Forwardslash Amplify
 
-This is a [forwardslash-development.io](https://forwardslash-development.io/) project bootstrapped with [`Next.js`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Github n-tierd environments with continuous deploys to AWS Amplify and pushed to CloudFront Edge
+This is a [forwardslash-development.io](https://forwardslash-development.io/) project bootstrapped with [`Next.js`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), using styled components.
+
+Github n-tierd environments with continuous deploys to AWS Amplify and pushed to CloudFront Edge
 
 ## Getting Started
 
-First, run the development server:
+First, yadda yadda yadda
+
+then run the development server:
 
 ```bash
 run yarn
