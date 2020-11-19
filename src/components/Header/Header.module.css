@@ -1,0 +1,30 @@
+.container {
+  margin: 0;
+  left: 0;
+  top: 0;
+  position: sticky;
+  z-index: 1000;
+  background: #000066;
+  width: 100vw;
+}
+
+.logo {
+  display: inline-block;
+  background-image: url('/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: 72px 72px;
+  height: 72px;
+}
+
+.title h1 {
+  line-height: 1;
+  color: #fff;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-left: 74px;
+}
+
+.address {
+  color: #6ccff6;
+  padding-left: 74px;
+}
