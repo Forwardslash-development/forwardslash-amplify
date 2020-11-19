@@ -1,14 +1,16 @@
 .subtitle {
-  color: #6ccff6;
+  color: #fff;
   line-height: 1.15;
   font-size: 2rem;
+  margin-block-start: 0;
 }
 
 .code {
-  padding: 4px;
+  padding: 12px;
   background: #6ccff6;
   color: #000066;
   border-radius: 5px;
+  font-weight: bolder;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -20,10 +22,11 @@
 .headline {
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 60vw;
   height: max-content;
-  padding: 1rem;
+  padding: 1.5rem;
   background: rgb(0, 0, 102, 0.4);
   border-radius: 1rem;
   border: 0.1rem solid #fefefe;
