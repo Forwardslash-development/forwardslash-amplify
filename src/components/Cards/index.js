@@ -13,30 +13,45 @@ function Cards() {
   return (
     <CardRoot>
       <div className={styles.grid}>
-        <a href='https://nextjs.org/docs' className={styles.card}>
-          <h3>About &rarr;</h3>
-          <p>About Forwardslash Development, history, work, ethics, goals.</p>
+        <a href='/' className={styles.aboutcard}>
+          <div className={styles.top}></div>
+          <div className={styles.caption}></div>
+          <div className={styles.middle}>
+            <h3 className={styles.title}>About &rarr;</h3>
+            <p>About Forwardslash Development, history, work, ethics, goals.</p>
+          </div>
+          <div className={styles.bottom}></div>
         </a>
 
-        <a href='https://nextjs.org/learn' className={styles.card}>
-          <h3>Services &rarr;</h3>
-          <p>Progressive web application and API development services.</p>
+        <a href='/' className={styles.servicescard}>
+          <div className={styles.top}></div>
+          <div className={styles.caption}></div>
+          <div className={styles.middle}>
+            <h3 className={styles.title}>Services &rarr;</h3>
+            <p>Progressive web application and API development services.</p>
+          </div>
+          <div className={styles.bottom}></div>
         </a>
-
         <a
           href='https://github.com/vercel/next.js/tree/master/examples'
-          className={styles.card}
+          className={styles.blogcard}
         >
-          <h3>Blog &rarr;</h3>
-          <p>The place where we write, when we write</p>
+          <div className={styles.top}></div>
+          <div className={styles.caption}></div>
+          <div className={styles.middle}>
+            <h3 className={styles.title}>Blog &rarr;</h3>
+            <p>Our development blog. The place where we write, when we write</p>
+          </div>
+          <div className={styles.bottom}></div>
         </a>
 
-        <a
-          href='https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          className={styles.card}
-        >
-          <h3>Connect &rarr;</h3>
+        <a href='/' className={styles.connectcard}>
+          <div className={styles.top}></div>
+          <div className={styles.caption}></div>
+          <div className={styles.middle}></div>
+          <h3 className={styles.title}>Connect &rarr;</h3>
           <p>Slack, Discord, Twitter, Github, Email, contact form..</p>
+          <div className={styles.bottom}></div>
         </a>
       </div>
     </CardRoot>
