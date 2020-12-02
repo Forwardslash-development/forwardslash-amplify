@@ -230,24 +230,24 @@
 
 .aboutcard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
 
 .servicescard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
 
 .blogcard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
 
 .connectcard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
