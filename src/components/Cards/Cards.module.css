@@ -73,7 +73,9 @@
 .aboutcard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .aboutcard .caption .title {
   color: #222;
@@ -117,7 +119,9 @@
 .servicescard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .servicescard .caption .title {
   color: #222;
@@ -161,7 +165,9 @@
 .blogcard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .blogcard .caption .title {
   color: #222;
@@ -205,7 +211,9 @@
 .connectcard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .connectcard .caption .title {
   color: #222;
