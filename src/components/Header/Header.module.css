@@ -1,31 +1,45 @@
-.container {
-  margin: 0;
-  left: 0;
-  top: 0;
-  position: sticky;
-  z-index: 1000;
+.brandRow {
   background: #000066;
-  width: 100vw;
-  border-bottom: 3px groove #6ccff6;
 }
-
+.brandNav {
+  background: #000066;
+  margin-left: 0;
+  padding: 0;
+}
+.logoCol {
+  padding-top: 1em;
+  flex-basis: 3%;
+}
+.titleCol {
+  padding-top: 1em;
+}
+.navRow {
+  background: #000066;
+}
 .logo {
-  display: inline-block;
   background-image: url('/images/logo.png');
   background-repeat: no-repeat;
-  background-size: 72px 72px;
-  height: 72px;
+  height: 100px;
+  width: 100px;
 }
-
-.title h1 {
-  line-height: 1;
+.link:link {
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.link:hover {
+  text-decoration: none;
+}
+.wrapper {
+}
+.title {
   color: #fff;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-left: 74px;
+  font-size: 2.3em;
+  line-height: 0.9;
 }
 
 .address {
+  font-size: 1.3em;
   color: #6ccff6;
-  padding-left: 74px;
+  line-height: 0.9;
+  margin: 0;
 }

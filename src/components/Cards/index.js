@@ -1,60 +1,85 @@
 import React from 'react';
-import styled from '@emotion/styled';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Link from 'next/link';
 import styles from './Cards.module.css';
-
-const CardRoot = styled('div')`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
 
 function Cards() {
   return (
-    <CardRoot>
-      <div className={styles.grid}>
-        <a href='/' className={styles.aboutcard}>
-          <div className={styles.top}></div>
-          <div className={styles.caption}></div>
-          <div className={styles.middle}>
-            <h3 className={styles.title}>About &rarr;</h3>
-            <p>About Forwardslash Development, history, work, ethics, goals.</p>
-          </div>
-          <div className={styles.bottom}></div>
-        </a>
-
-        <a href='/' className={styles.servicescard}>
-          <div className={styles.top}></div>
-          <div className={styles.caption}></div>
-          <div className={styles.middle}>
-            <h3 className={styles.title}>Services &rarr;</h3>
-            <p>Progressive web application and API development services.</p>
-          </div>
-          <div className={styles.bottom}></div>
-        </a>
-        <a
-          href='https://github.com/vercel/next.js/tree/master/examples'
-          className={styles.blogcard}
-        >
-          <div className={styles.top}></div>
-          <div className={styles.caption}></div>
-          <div className={styles.middle}>
-            <h3 className={styles.title}>Blog &rarr;</h3>
-            <p>Our development blog. The place where we write, when we write</p>
-          </div>
-          <div className={styles.bottom}></div>
-        </a>
-
-        <a href='/' className={styles.connectcard}>
-          <div className={styles.top}></div>
-          <div className={styles.caption}></div>
-          <div className={styles.middle}></div>
-          <h3 className={styles.title}>Connect &rarr;</h3>
-          <p>Slack, Discord, Twitter, Github, Email, contact form..</p>
-          <div className={styles.bottom}></div>
-        </a>
-      </div>
-    </CardRoot>
+    <Container fluid>
+      <Row xs='1' sm='1' md='1' lg='4'>
+        <Col className={styles.grid}>
+          <Link href='/about'>
+            <div className={styles.aboutcard}>
+              <a>
+                <div className={styles.top}></div>
+                <div className={styles.caption}></div>
+                <div className={styles.middle}>
+                  <h3 className={styles.title}>About &rarr;</h3>
+                  <p>
+                    About Forwardslash Development, history, work, ethics,
+                    goals.
+                  </p>
+                </div>
+                <div className={styles.bottom}></div>
+              </a>
+            </div>
+          </Link>
+        </Col>
+        <Col className={styles.grid}>
+          <Link href='/services'>
+            <div className={styles.servicescard}>
+              <a>
+                <div className={styles.top}></div>
+                <div className={styles.caption}></div>
+                <div className={styles.middle}>
+                  <h3 className={styles.title}>Services &rarr;</h3>
+                  <p>
+                    Progressive web application and API development services.
+                  </p>
+                </div>
+                <div className={styles.bottom}></div>
+              </a>
+            </div>
+          </Link>
+        </Col>
+        <Col className={styles.grid}>
+          <Link href='/blog'>
+            <div className={styles.blogcard}>
+              <a>
+                <div className={styles.top}></div>
+                <div className={styles.caption}></div>
+                <div className={styles.middle}>
+                  <h3 className={styles.title}>Blog &rarr;</h3>
+                  <p>
+                    Our development blog. The place where we write, when we
+                    write
+                  </p>
+                </div>
+                <div className={styles.bottom}></div>
+              </a>
+            </div>
+          </Link>
+        </Col>
+        <Col className={styles.grid}>
+          <Link href='/connect'>
+            <div className={styles.connectcard}>
+              <a>
+                <div className={styles.top}></div>
+                <div className={styles.caption}></div>
+                <div className={styles.middle}></div>
+                <h3 className={styles.title}>Connect &rarr;</h3>
+                <p>
+                  Connect with us by Slack, Discord, Twitter, Github, Email.
+                </p>
+                <div className={styles.bottom}></div>
+              </a>
+            </div>
+          </Link>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

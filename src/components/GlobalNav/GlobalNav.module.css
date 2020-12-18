@@ -1,0 +1,40 @@
+.global {
+  background-color: #000066;
+  color: #ffffff;
+}
+.toggle .toggler-icon {
+  color: #ffffff;
+  background-color: #000066;
+}
+.collapse {
+  margin-top: 0.25em;
+  background-color: #000066;
+  color: #ffffff;
+}
+.collapse:link {
+  color: #ffffff;
+}
+.pillbox {
+  margin-top: 0.5rem;
+  border: 1px solid #ffffff;
+}
+.pillbox:link {
+  color: #000066;
+}
+.navbar-brand {
+  background: #000066;
+  margin: 0;
+}
+.link {
+  color: #ffffff;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: #ffffff;
+  color: #000066;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+}

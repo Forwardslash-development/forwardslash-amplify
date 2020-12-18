@@ -1,27 +1,19 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Head from 'next/head';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+import Meta from '../Meta';
 import Header from '../Header';
-
 import Footer from '../Footer';
-import styles from './Layout.module.css';
 
-function Layout({ children }) {
+export default function Layout({ preview, children }) {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Forwardslash Development</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-      <Header />
-      {children}
-      <Footer />
-    </div>
+    <>
+      <Meta />
+      <div className='min-h-screen'>
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
+    </>
   );
 }
-
-Layout.propTypes = {
-  children: PropTypes.node,
-};
-
-export default Layout;
