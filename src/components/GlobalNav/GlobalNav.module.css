@@ -1,6 +1,7 @@
 .global {
   background-color: #000066;
   color: #ffffff;
+  min-width: 486px;
 }
 .toggle .toggler-icon {
   color: #ffffff;
