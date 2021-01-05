@@ -34,8 +34,6 @@
 }
 
 .card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
 }
 
 .card p {
@@ -86,8 +84,6 @@
 }
 .aboutcard .caption .title {
   color: #222;
-  margin: 0px 0px 15px 0px;
-  font-size: 1.4rem;
 }
 .aboutcard .caption .button {
   color: #333;
