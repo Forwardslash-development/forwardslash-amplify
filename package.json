@@ -16,7 +16,6 @@
     "cosmicjs": "^3.3.2",
     "date-fns": "^2.16.1",
     "in-viewport": "^3.6.0",
-    "lazysizes": "^5.2.2",
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
