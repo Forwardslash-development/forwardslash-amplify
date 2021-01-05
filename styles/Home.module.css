@@ -6,7 +6,6 @@
   background: url('/images/cover.jpeg');
   background-size: cover;
   height: 360px;
-  min-width: fit-content;
 }
 
 .subtitle {
