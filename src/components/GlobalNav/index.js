@@ -15,8 +15,8 @@ export default function GlobalNav() {
           <Link href='/'>
             <a className={styles.link}>Home</a>
           </Link>
-          <Link href='/about'>
-            <a className={styles.link}>About</a>
+          <Link href='/info'>
+            <a className={styles.link}>Info</a>
           </Link>
           <Link href='/services'>
             <a className={styles.link}>Services</a>

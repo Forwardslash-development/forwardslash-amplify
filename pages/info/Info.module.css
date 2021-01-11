@@ -1,11 +1,10 @@
-.connect {
-  background: url('/images/connect-cover.jpg');
+.info {
+  background: url('/images/about-cover.jpg');
   background-size: cover;
   height: 360px;
 }
 .subtitle {
   color: #fff;
-  line-height: 1.15;
   font-size: 3rem;
 }
 .code {

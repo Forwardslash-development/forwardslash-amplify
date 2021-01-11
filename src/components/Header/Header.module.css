@@ -1,5 +1,6 @@
 .brandRow {
   background: #000066;
+  min-width: 486px;
 }
 .brandNav {
   background: #000066;
@@ -29,14 +30,11 @@
 .link:hover {
   text-decoration: none;
 }
-.wrapper {
-}
 .title {
   color: #fff;
   font-size: 2.3em;
   line-height: 0.9;
 }
-
 .address {
   font-size: 1.3em;
   color: #6ccff6;

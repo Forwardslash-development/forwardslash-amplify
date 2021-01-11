@@ -2,15 +2,15 @@ import Layout from '../../src/components/Layout';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 
-import styles from './About.module.css';
+import styles from './Info.module.css';
 
-export default function About() {
+export default function Info() {
   return (
     <Layout>
-      <Jumbotron fluid className={styles.about}>
+      <Jumbotron fluid className={styles.info}>
         <Container>
           <h1 className={styles.subtitle}>Modern Application Development</h1>
-          <h3 className={styles.code}>about</h3>
+          <h3 className={styles.code}> about, history, work, ethics...</h3>
         </Container>
       </Jumbotron>
     </Layout>
