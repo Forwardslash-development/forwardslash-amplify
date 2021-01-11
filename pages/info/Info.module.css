@@ -1,5 +1,5 @@
-.services {
-  background: url('/images/service-cover.jpg');
+.info {
+  background: url('/images/about-cover.jpg');
   background-size: cover;
   height: 360px;
 }

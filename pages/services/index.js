@@ -10,7 +10,7 @@ export default function Services() {
       <Jumbotron fluid className={styles.services}>
         <Container>
           <h2 className={styles.subtitle}>Modern Application Development</h2>
-          <code className={styles.code}>progressive web solutions </code>
+          <code className={styles.code}>Forwardslash Development Services</code>
         </Container>
       </Jumbotron>
     </Layout>

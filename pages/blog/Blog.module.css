@@ -6,6 +6,10 @@
 .subtitle {
   color: #fff;
   line-height: 1.15;
-  font-size: 2rem;
   margin-block-start: 0;
+  font-size: 3rem;
+}
+.code {
+  color: #6ccff6;
+  font-size: 1.5rem;
 }

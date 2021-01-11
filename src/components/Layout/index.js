@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Meta />
       <div className='min-h-screen'>
         <Header />
-        <main>{children}</main>
+        {children}
         <Footer />
       </div>
     </>

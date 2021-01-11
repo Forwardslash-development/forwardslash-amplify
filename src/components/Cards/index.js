@@ -10,16 +10,16 @@ function Cards() {
     <Container fluid>
       <Row xs='1' sm='1' md='1' lg='4'>
         <Col className={styles.grid}>
-          <Link href='/about'>
-            <div className={styles.aboutcard}>
+          <Link href='/info'>
+            <div className={styles.infocard}>
               <a>
                 <div className={styles.top}></div>
                 <div className={styles.caption}></div>
                 <div className={styles.middle}>
-                  <h3 className={styles.title}>About &rarr;</h3>
+                  <h3 className={styles.title}>Info &rarr;</h3>
                   <p>
-                    About Forwardslash Development, history, work, ethics,
-                    goals.
+                    Information about Forwardslash Development; history, work,
+                    ethics, goals.
                   </p>
                 </div>
                 <div className={styles.bottom}></div>
