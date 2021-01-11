@@ -1,10 +1,16 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .grid {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  min-width: 21%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card {
@@ -24,11 +30,10 @@
 .card:active {
   color: #000066;
   border-color: #6ccff6;
+  text-decoration: none;
 }
 
 .card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
 }
 
 .card p {
@@ -44,7 +49,7 @@
   }
 }
 
-.aboutcard {
+.infocard {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -56,31 +61,31 @@
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
-.aboutcard .top {
+.infocard .top {
   background-image: url('/images/about-cover.jpg');
   background-size: cover;
   background-position: center;
   box-shadow: 0px 1px 3px rgba(25, 25, 25, 0.3);
-  height: 100px;
+  height: 10vh;
 }
-.aboutcard .middle {
+.infocard .middle {
   background: #fff;
 }
-.aboutcard .bottom {
+.infocard .bottom {
   background: #fff;
 }
 
-.aboutcard .caption {
+.infocard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
-.aboutcard .caption .title {
+.infocard .caption .title {
   color: #222;
-  margin: 0px 0px 15px 0px;
-  font-size: 1.4rem;
 }
-.aboutcard .caption .button {
+.infocard .caption .button {
   color: #333;
   text-decoration: none;
   border: solid 1px #555;
@@ -105,7 +110,7 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0px 1px 3px rgba(25, 25, 25, 0.3);
-  height: 100px;
+  height: 10vh;
 }
 .servicescard .middle {
   background: #fff;
@@ -117,7 +122,9 @@
 .servicescard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .servicescard .caption .title {
   color: #222;
@@ -149,7 +156,7 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0px 1px 3px rgba(25, 25, 25, 0.3);
-  height: 100px;
+  height: 10vh;
 }
 .blogcard .middle {
   background: #fff;
@@ -161,7 +168,9 @@
 .blogcard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .blogcard .caption .title {
   color: #222;
@@ -193,7 +202,7 @@
   background-size: cover;
   background-position: center;
   box-shadow: 0px 1px 3px rgba(25, 25, 25, 0.3);
-  height: 100px;
+  height: 10vh;
 }
 .connectcard .middle {
   background: #fff;
@@ -205,7 +214,9 @@
 .connectcard .caption {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.75);
-  padding: 15px 10px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .connectcard .caption .title {
   color: #222;
@@ -220,26 +231,26 @@
   background-color: transparent;
 }
 
-.aboutcard:hover {
+.infocard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
 
 .servicescard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
 
 .blogcard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }
 
 .connectcard:hover {
   transform: scale(1.05);
-  transition: all 300ms ease-in-out;
+  transition: all 200ms ease-in-out;
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
 }

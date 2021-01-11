@@ -1,20 +1,12 @@
-.container {
-  margin: 0;
-  min-width: fit-content;
-}
-
-.home {
-  background: url('/images/cover.jpeg');
+.services {
+  background: url('/images/service-cover.jpg');
   background-size: cover;
   height: 360px;
-  min-width: 485px;
 }
-
 .subtitle {
   color: #fff;
   font-size: 3rem;
 }
-
 .code {
   color: #6ccff6;
   font-size: 1.5rem;
