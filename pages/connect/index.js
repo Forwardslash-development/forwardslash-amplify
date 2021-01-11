@@ -10,7 +10,7 @@ export default function Blog() {
       <Jumbotron fluid className={styles.connect}>
         <Container>
           <h2 className={styles.subtitle}>Modern Application Development</h2>
-          <code className={styles.code}>How to connect with us </code>
+          <h3 className={styles.code}>How to connect with us </h3>
         </Container>
       </Jumbotron>
     </Layout>
