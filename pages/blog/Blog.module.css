@@ -1,11 +1,15 @@
+.container {
+  margin: 0;
+  min-width: fit-content;
+}
 .blog {
   background: url('/images/blog-cover.jpg');
   background-size: cover;
   height: 360px;
+  min-width: 485px;
 }
 .subtitle {
   color: #fff;
-  line-height: 1.15;
   margin-block-start: 0;
   font-size: 3rem;
 }

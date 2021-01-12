@@ -1,13 +1,18 @@
+.container {
+  margin: 0;
+  min-width: fit-content;
+}
 .info {
-  background: url('/images/about-cover.jpg');
+  background: url('/images/info-cover.jpg');
   background-size: cover;
   height: 360px;
+  min-width: 485px;
 }
 .subtitle {
   color: #fff;
   font-size: 3rem;
 }
 .code {
-  color: #6ccff6;
+  color: #000066;
   font-size: 1.5rem;
 }

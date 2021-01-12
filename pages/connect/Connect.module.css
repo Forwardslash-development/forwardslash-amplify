@@ -1,12 +1,18 @@
+.container {
+  margin: 0;
+  min-width: fit-content;
+}
 .connect {
   background: url('/images/connect-cover.jpg');
   background-size: cover;
   height: 360px;
+  min-width: 485px;
+  margin-top: -2px;
 }
 .subtitle {
   color: #fff;
-  line-height: 1.15;
   font-size: 3rem;
+  margin-top: 2px;
 }
 .code {
   color: #6ccff6;

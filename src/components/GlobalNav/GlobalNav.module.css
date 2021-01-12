@@ -1,9 +1,4 @@
-.global {
-  background-color: #000066;
-  color: #ffffff;
-  min-width: 486px;
-}
-.toggle .toggler-icon {
+.toggle .nav-toggler-icon {
   color: #ffffff;
   background-color: #000066;
 }
@@ -18,13 +13,6 @@
 .pillbox {
   margin-top: 0.5rem;
 }
-.pillbox:link {
-  color: #000066;
-}
-.navbar-brand {
-  background: #000066;
-  margin: 0;
-}
 .link {
   color: #ffffff;
   padding-left: 1em;
@@ -37,4 +25,39 @@
   padding-left: 1em;
   padding-right: 1em;
   text-decoration: none;
+}
+.homeIcon {
+  height: 32px;
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-right: 15px;
+  vertical-align: text-bottom;
+}
+.infoIcon {
+  height: 32px;
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-right: 20px;
+  vertical-align: text-bottom;
+}
+.servicesIcon {
+  height: 32px;
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-right: 12px;
+  vertical-align: text-bottom;
+}
+.blogIcon {
+  height: 32px;
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-right: 17px;
+  vertical-align: text-bottom;
+}
+.connectIcon {
+  height: 32px;
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-right: 13px;
+  vertical-align: text-bottom;
 }

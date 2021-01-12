@@ -6,7 +6,7 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout fluid>
       <Jumbotron fluid className={styles.home}>
         <Container fluid>
           <h2 className={styles.subtitle}>Modern Application Development</h2>

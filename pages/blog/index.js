@@ -6,9 +6,9 @@ import styles from './Blog.module.css';
 
 export default function Blog() {
   return (
-    <Layout>
+    <Layout fluid>
       <Jumbotron fluid className={styles.blog}>
-        <Container>
+        <Container fluid>
           <h2 className={styles.subtitle}>Modern Application Development</h2>
           <h3 className={styles.code}>progressive web solutions </h3>
         </Container>

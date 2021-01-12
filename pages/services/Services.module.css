@@ -1,7 +1,12 @@
+.container {
+  margin: 0;
+  min-width: fit-content;
+}
 .services {
   background: url('/images/service-cover.jpg');
   background-size: cover;
   height: 360px;
+  min-width: 485px;
 }
 .subtitle {
   color: #fff;

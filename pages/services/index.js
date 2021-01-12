@@ -6,9 +6,9 @@ import styles from './Services.module.css';
 
 export default function Services() {
   return (
-    <Layout>
+    <Layout fluid>
       <Jumbotron fluid className={styles.services}>
-        <Container>
+        <Container fluid>
           <h2 className={styles.subtitle}>Modern Application Development</h2>
           <h3 className={styles.code}>Forwardslash Development Services</h3>
         </Container>

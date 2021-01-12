@@ -6,9 +6,9 @@ import styles from './Connect.module.css';
 
 export default function Blog() {
   return (
-    <Layout>
+    <Layout fluid>
       <Jumbotron fluid className={styles.connect}>
-        <Container>
+        <Container fluid>
           <h2 className={styles.subtitle}>Modern Application Development</h2>
           <h3 className={styles.code}>How to connect with us </h3>
         </Container>
