@@ -16,6 +16,7 @@
 }
 .navRow {
   background: #000066;
+  min-width: 485px;
 }
 .logo {
   background-image: url('/images/logo.png');
