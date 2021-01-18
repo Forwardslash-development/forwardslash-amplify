@@ -7,7 +7,7 @@ import styles from './Cards.module.css';
 
 function Cards() {
   return (
-    <Container fluid>
+    <Container fluid className={styles.cards}>
       <Row xs='1' sm='1' md='1' lg='4'>
         <Col className={styles.grid}>
           <Link href='/info'>

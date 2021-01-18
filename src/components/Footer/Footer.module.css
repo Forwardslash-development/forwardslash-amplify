@@ -1,5 +1,6 @@
 .footer {
   height: 100px;
+  min-width: 485px;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;

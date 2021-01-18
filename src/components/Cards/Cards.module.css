@@ -1,4 +1,5 @@
-.container {
+.cards {
+  min-width: 485px;
   margin-left: auto;
   margin-right: auto;
 }
