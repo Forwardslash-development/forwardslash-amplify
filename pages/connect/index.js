@@ -1,6 +1,8 @@
 import Layout from '../../src/components/Layout';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
@@ -26,65 +28,79 @@ export default function Blog() {
           <h3 className={styles.code}>How to connect with us </h3>
         </Container>
       </Jumbotron>
-      <Container fluid='xl' className={styles.container}>
-        <CardDeck>
-          <Card className={styles.cCard}>
-            <FontAwesomeIcon icon={faDiscord} className={styles.discordIcon} />
-            <Card.Body>
-              <Card.Title>Connect on Discord</Card.Title>
-              <Card.Text className={styles.cbtext}>
-                Connect with Forwardslash Development on the server.
-              </Card.Text>
-              <Link href='/'>
-                <a target='_blank' rel='noreferrer'>
-                  <Button variant='primary'>Join Us!</Button>
-                </a>
-              </Link>
-            </Card.Body>
-          </Card>
-          <Card className={styles.cCard}>
-            <FontAwesomeIcon icon={faTwitter} className={styles.discordIcon} />
-            <Card.Body>
-              <Card.Title>Follow us on Twitter</Card.Title>
-              <Card.Text className={styles.cbtext}>
-                Connect with Forwardslash Development on the server.
-              </Card.Text>
-              <Link href='/'>
-                <a target='_blank' rel='noreferrer'>
-                  <Button variant='primary'>Join Us!</Button>
-                </a>
-              </Link>
-            </Card.Body>
-          </Card>
-          <Card className={styles.cCard}>
-            <FontAwesomeIcon icon={faGithub} className={styles.discordIcon} />
-            <Card.Body>
-              <Card.Title>Follow us on Github</Card.Title>
-              <Card.Text className={styles.cbtext}>
-                Connect with Forwardslash Development on Github.
-              </Card.Text>
-              <Link href='https://github.com/ForwardslashDevelopment'>
-                <a target='_blank' rel='noreferrer'>
-                  <Button variant='primary'>Join Us!</Button>
-                </a>
-              </Link>
-            </Card.Body>
-          </Card>
-          <Card className={styles.cCard}>
-            <FontAwesomeIcon icon={faAt} className={styles.atIcon} />
-            <Card.Body>
-              <Card.Title>Send us an email</Card.Title>
-              <Card.Text className={styles.cbtext}>
-                Connect with Forwardslash Development on Github.
-              </Card.Text>
-              <Link href=''>
-                <a target='_blank' rel='noreferrer'>
-                  <Button variant='primary'>Join Us!</Button>
-                </a>
-              </Link>
-            </Card.Body>
-          </Card>
-        </CardDeck>
+      <Container className={styles.container}>
+        <Row className={styles.cRow}>
+          <Col className={styles.cCol} xs={12} lg={3}>
+            <Card className={styles.cCard}>
+              <FontAwesomeIcon
+                icon={faDiscord}
+                className={styles.discordIcon}
+              />
+              <Card.Body>
+                <Card.Title>Connect on Discord</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Connect with Forwardslash Development on the server.
+                </Card.Text>
+                <Link href='/'>
+                  <a target='_blank' rel='noreferrer'>
+                    <Button variant='primary'>Join Us!</Button>
+                  </a>
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className={styles.cCol} xs={12} lg={3}>
+            <Card className={styles.cCard}>
+              <FontAwesomeIcon
+                icon={faTwitter}
+                className={styles.discordIcon}
+              />
+              <Card.Body>
+                <Card.Title>Follow us on Twitter</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Connect with Forwardslash Development on the server.
+                </Card.Text>
+                <Link href='/'>
+                  <a target='_blank' rel='noreferrer'>
+                    <Button variant='primary'>Join Us!</Button>
+                  </a>
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className={styles.cCol} xs={12} lg={3}>
+            <Card className={styles.cCard}>
+              <FontAwesomeIcon icon={faGithub} className={styles.discordIcon} />
+              <Card.Body>
+                <Card.Title>Watch us on Github</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Connect with Forwardslash Development on Github.
+                </Card.Text>
+                <Link href='https://github.com/ForwardslashDevelopment'>
+                  <a target='_blank' rel='noreferrer'>
+                    <Button variant='primary'>Join Us!</Button>
+                  </a>
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className={styles.cCol} xs={12} lg={3}>
+            <Card className={styles.cCard}>
+              <FontAwesomeIcon icon={faAt} className={styles.atIcon} />
+              <Card.Body>
+                <Card.Title>Send an email</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Send us an email @ Forwardslash Development.
+                </Card.Text>
+                <Link href=''>
+                  <a target='_blank' rel='noreferrer'>
+                    <Button variant='primary'>Email Us!</Button>
+                  </a>
+                </Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
     </Layout>
   );
