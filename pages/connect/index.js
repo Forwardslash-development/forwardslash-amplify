@@ -37,11 +37,11 @@ export default function Blog() {
                 className={styles.discordIcon}
               />
               <Card.Body>
-                <Card.Title>Connect on Discord</Card.Title>
+                <Card.Title>Join us on Discord</Card.Title>
                 <Card.Text className={styles.cbtext}>
-                  Connect with Forwardslash Development on the server.
+                  Join the Forwardslash Development Discord server.
                 </Card.Text>
-                <Link href='/'>
+                <Link href='https://discord.gg/KhpkGJxN3X'>
                   <a target='_blank' rel='noreferrer'>
                     <Button variant='primary'>Join Us!</Button>
                   </a>
@@ -60,9 +60,9 @@ export default function Blog() {
                 <Card.Text className={styles.cbtext}>
                   Connect with Forwardslash Development on the server.
                 </Card.Text>
-                <Link href='/'>
+                <Link href='https://twitter.com/development_io'>
                   <a target='_blank' rel='noreferrer'>
-                    <Button variant='primary'>Join Us!</Button>
+                    <Button variant='primary'>Follow Us!</Button>
                   </a>
                 </Link>
               </Card.Body>
@@ -72,13 +72,13 @@ export default function Blog() {
             <Card className={styles.cCard}>
               <FontAwesomeIcon icon={faGithub} className={styles.discordIcon} />
               <Card.Body>
-                <Card.Title>Watch us on Github</Card.Title>
+                <Card.Title>Star us on Github</Card.Title>
                 <Card.Text className={styles.cbtext}>
                   Connect with Forwardslash Development on Github.
                 </Card.Text>
                 <Link href='https://github.com/ForwardslashDevelopment'>
                   <a target='_blank' rel='noreferrer'>
-                    <Button variant='primary'>Join Us!</Button>
+                    <Button variant='primary'>Star Us!</Button>
                   </a>
                 </Link>
               </Card.Body>
@@ -92,7 +92,7 @@ export default function Blog() {
                 <Card.Text className={styles.cbtext}>
                   Send us an email @ Forwardslash Development.
                 </Card.Text>
-                <Link href=''>
+                <Link href='mailto:jv@forwardslash-development.io'>
                   <a target='_blank' rel='noreferrer'>
                     <Button variant='primary'>Email Us!</Button>
                   </a>
