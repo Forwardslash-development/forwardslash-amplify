@@ -1,6 +1,7 @@
 .container {
   margin: 0;
-  min-width: fit-content;
+  display: flex;
+  justify-content: space-around;
 }
 .connect {
   background: url('/images/connect-cover.jpg');
@@ -23,8 +24,13 @@
 }
 .discordIcon {
   color: #000066;
-
   background-color: #6ccff6;
+  height: 200px;
+}
+.atIcon {
+  color: #000066;
+  background-color: #6ccff6;
+  height: 200px;
 }
 .cbtext {
   padding-bottom: 1rem;

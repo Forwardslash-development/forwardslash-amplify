@@ -10,7 +10,12 @@ import CardColumns from 'react-bootstrap/CardColumns';
 
 import styles from './Connect.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
+import {
+  faDiscord,
+  faTwitter,
+  faGithub,
+} from '@fortawesome/free-brands-svg-icons';
+import { faAt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Blog() {
   return (
@@ -21,21 +26,65 @@ export default function Blog() {
           <h3 className={styles.code}>How to connect with us </h3>
         </Container>
       </Jumbotron>
-      <Container fluid className={styles.container}>
-        <Card style={{ width: '18rem' }} className={styles.cCard}>
-          <FontAwesomeIcon icon={faDiscord} className={styles.discordIcon} />
-          <Card.Body>
-            <Card.Title>Connect on Discord</Card.Title>
-            <Card.Text className={styles.cbtext}>
-              Connect with Forwardslash Development on the server.
-            </Card.Text>
-            <Link href='/'>
-              <a target='_blank' rel='noreferrer'>
-                <Button variant='primary'>Join Us!</Button>
-              </a>
-            </Link>
-          </Card.Body>
-        </Card>
+      <Container fluid='xl' className={styles.container}>
+        <CardDeck>
+          <Card className={styles.cCard}>
+            <FontAwesomeIcon icon={faDiscord} className={styles.discordIcon} />
+            <Card.Body>
+              <Card.Title>Connect on Discord</Card.Title>
+              <Card.Text className={styles.cbtext}>
+                Connect with Forwardslash Development on the server.
+              </Card.Text>
+              <Link href='/'>
+                <a target='_blank' rel='noreferrer'>
+                  <Button variant='primary'>Join Us!</Button>
+                </a>
+              </Link>
+            </Card.Body>
+          </Card>
+          <Card className={styles.cCard}>
+            <FontAwesomeIcon icon={faTwitter} className={styles.discordIcon} />
+            <Card.Body>
+              <Card.Title>Follow us on Twitter</Card.Title>
+              <Card.Text className={styles.cbtext}>
+                Connect with Forwardslash Development on the server.
+              </Card.Text>
+              <Link href='/'>
+                <a target='_blank' rel='noreferrer'>
+                  <Button variant='primary'>Join Us!</Button>
+                </a>
+              </Link>
+            </Card.Body>
+          </Card>
+          <Card className={styles.cCard}>
+            <FontAwesomeIcon icon={faGithub} className={styles.discordIcon} />
+            <Card.Body>
+              <Card.Title>Follow us on Github</Card.Title>
+              <Card.Text className={styles.cbtext}>
+                Connect with Forwardslash Development on Github.
+              </Card.Text>
+              <Link href='https://github.com/ForwardslashDevelopment'>
+                <a target='_blank' rel='noreferrer'>
+                  <Button variant='primary'>Join Us!</Button>
+                </a>
+              </Link>
+            </Card.Body>
+          </Card>
+          <Card className={styles.cCard}>
+            <FontAwesomeIcon icon={faAt} className={styles.atIcon} />
+            <Card.Body>
+              <Card.Title>Send us an email</Card.Title>
+              <Card.Text className={styles.cbtext}>
+                Connect with Forwardslash Development on Github.
+              </Card.Text>
+              <Link href=''>
+                <a target='_blank' rel='noreferrer'>
+                  <Button variant='primary'>Join Us!</Button>
+                </a>
+              </Link>
+            </Card.Body>
+          </Card>
+        </CardDeck>
       </Container>
     </Layout>
   );
