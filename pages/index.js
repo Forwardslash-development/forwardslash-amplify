@@ -1,8 +1,23 @@
 import Layout from '../src/components/Layout';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
-import Cards from '../src/components/Cards';
 import styles from '../styles/Home.module.css';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+import Link from 'next/link';
+import CardDeck from 'react-bootstrap/CardDeck';
+import CardGroup from 'react-bootstrap/CardGroup';
+import CardColumns from 'react-bootstrap/CardColumns';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faHome,
+  faInfoCircle,
+  faCode,
+  faEdit,
+  faNetworkWired,
+} from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -13,7 +28,63 @@ export default function Home() {
           <h3 className={styles.code}>progressive web solutions </h3>
         </Container>
       </Jumbotron>
-      <Cards />
+      <Container className={styles.container}>
+        <Row className={styles.homeRow}>
+          <Col className={styles.homeCol} xs={12} lg={3}>
+            <Link href='/info'>
+              <Card className={styles.infoCard}>
+                <FontAwesomeIcon
+                  icon={faInfoCircle}
+                  className={styles.infoIcon}
+                />
+                <Card.Body>
+                  <Card.Title>Forwardslash Information</Card.Title>
+                  <Card.Text className={styles.cbtext}>
+                    Information about Forwardslash Development; history, work,
+                    ethics, goals.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Link>
+          </Col>
+          <Col className={styles.homeCol} xs={12} lg={3}>
+            <Card className={styles.serviceCard}>
+              <FontAwesomeIcon icon={faCode} className={styles.codeIcon} />
+              <Card.Body>
+                <Card.Title>Development Services</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Progressive web application and API development services.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className={styles.homeCol} xs={12} lg={3}>
+            <Card className={styles.blogCard}>
+              <FontAwesomeIcon icon={faEdit} className={styles.editIcon} />
+              <Card.Body>
+                <Card.Title>Development Blog</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Our development blog. The place where we write, when we write.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col className={styles.homeCol} xs={12} lg={3}>
+            <Card className={styles.connectCard}>
+              <FontAwesomeIcon
+                icon={faNetworkWired}
+                className={styles.networkWiredIcon}
+              />
+              <Card.Body>
+                <Card.Title>Connect with Us.</Card.Title>
+                <Card.Text className={styles.cbtext}>
+                  Connect with us by Slack, Discord, Twitter, Github, Email.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
     </Layout>
   );
 }

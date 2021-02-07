@@ -19,7 +19,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 
-export default function Blog() {
+export default function Connect() {
   return (
     <Layout fluid>
       <Jumbotron fluid className={styles.connect}>

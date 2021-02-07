@@ -1,4 +1,5 @@
 .container {
+  padding: 0;
   margin: 0;
   min-width: fit-content;
 }
@@ -18,4 +19,134 @@
 .code {
   color: #6ccff6;
   font-size: 1.5rem;
+}
+.subtitle {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 2px;
+}
+.homeRow {
+  margin-bottom: 1rem;
+  width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.homeCol {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.homeCard {
+  background-color: #fff;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.homeCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+}
+.infoCard {
+  background-color: #fff;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.infoCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+  cursor: pointer;
+}
+.serviceCard {
+  background-color: #fff;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.serviceCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+  cursor: pointer;
+}
+.blogCard {
+  background-color: #fff;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.blogCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+  cursor: pointer;
+}
+.connectCard {
+  background-color: #fff;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.connectCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+  cursor: pointer;
+}
+.deck {
+  background-color: #000066;
+}
+.infoIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.codeIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.editIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.networkWiredIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.cbtext {
+  padding-bottom: 1rem;
 }
