@@ -48,40 +48,47 @@ export default function Home() {
             </Link>
           </Col>
           <Col className={styles.homeCol} xs={12} lg={3}>
-            <Card className={styles.serviceCard}>
-              <FontAwesomeIcon icon={faCode} className={styles.codeIcon} />
-              <Card.Body>
-                <Card.Title>Development Services</Card.Title>
-                <Card.Text className={styles.cbtext}>
-                  Progressive web application and API development services.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Link href='/services'>
+              <Card className={styles.serviceCard}>
+                <FontAwesomeIcon icon={faCode} className={styles.codeIcon} />
+                <Card.Body>
+                  <Card.Title>Development Services</Card.Title>
+                  <Card.Text className={styles.cbtext}>
+                    Progressive web application and API development services.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Link>
           </Col>
           <Col className={styles.homeCol} xs={12} lg={3}>
-            <Card className={styles.blogCard}>
-              <FontAwesomeIcon icon={faEdit} className={styles.editIcon} />
-              <Card.Body>
-                <Card.Title>Development Blog</Card.Title>
-                <Card.Text className={styles.cbtext}>
-                  Our development blog. The place where we write, when we write.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Link href='blog'>
+              <Card className={styles.blogCard}>
+                <FontAwesomeIcon icon={faEdit} className={styles.editIcon} />
+                <Card.Body>
+                  <Card.Title>Development Blog</Card.Title>
+                  <Card.Text className={styles.cbtext}>
+                    Our development blog. The place where we write, when we
+                    write.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Link>
           </Col>
           <Col className={styles.homeCol} xs={12} lg={3}>
-            <Card className={styles.connectCard}>
-              <FontAwesomeIcon
-                icon={faNetworkWired}
-                className={styles.networkWiredIcon}
-              />
-              <Card.Body>
-                <Card.Title>Connect with Us.</Card.Title>
-                <Card.Text className={styles.cbtext}>
-                  Connect with us by Slack, Discord, Twitter, Github, Email.
-                </Card.Text>
-              </Card.Body>
-            </Card>
+            <Link href='/connect'>
+              <Card className={styles.connectCard}>
+                <FontAwesomeIcon
+                  icon={faNetworkWired}
+                  className={styles.networkWiredIcon}
+                />
+                <Card.Body>
+                  <Card.Title>Connect with Us.</Card.Title>
+                  <Card.Text className={styles.cbtext}>
+                    Connect with us by Slack, Discord, Twitter, Github, Email.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Link>
           </Col>
         </Row>
       </Container>
