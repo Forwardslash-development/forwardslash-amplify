@@ -1,5 +1,6 @@
 .container {
   margin: 0;
+  padding: 0;
   min-width: fit-content;
 }
 .info {
@@ -11,8 +12,18 @@
 .subtitle {
   color: #fff;
   font-size: 3rem;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000066;
 }
 .code {
-  color: #000066;
+  color: #fff;
   font-size: 1.5rem;
+  font-weight: bolder;
+  width: fit-content;
+  padding-bottom: 0.1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000066;
 }

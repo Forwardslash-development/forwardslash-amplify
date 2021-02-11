@@ -11,7 +11,7 @@ export default function Info() {
         <Container fluid>
           <h1 className={styles.subtitle}>Modern Application Development</h1>
           <h3 className={styles.code}>
-            Info about, history, work, ethics, goals....
+            Info about, history, work, ethics, goals...
           </h3>
         </Container>
       </Jumbotron>

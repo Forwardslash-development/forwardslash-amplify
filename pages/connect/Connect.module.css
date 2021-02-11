@@ -1,6 +1,7 @@
 .container {
   padding: 0;
   margin: 0;
+  min-width: fit-content;
 }
 .connect {
   background: url('/images/connect-cover.jpg');
@@ -9,14 +10,24 @@
   min-width: 485px;
   margin-top: -2px;
 }
+.code {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  width: fit-content;
+  padding-bottom: 0.1em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000066;
+}
 .subtitle {
   color: #fff;
   font-size: 3rem;
+  font-weight: bolder;
   margin-top: 2px;
-}
-.code {
-  color: #6ccff6;
-  font-size: 1.5rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000066;
 }
 .cRow {
   margin-bottom: 1rem;
@@ -45,10 +56,36 @@
   box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
   border-radius: 1em/1em;
 }
-.deck {
-  background-color: #000066;
+.discordCard {
+  background-color: #fff;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.discordCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
 }
 .discordIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.githubIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.twitterIcon {
   color: #000066;
   border-radius: 10px 10px 0 0;
   background-color: #6ccff6;

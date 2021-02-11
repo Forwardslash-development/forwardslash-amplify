@@ -5,14 +5,9 @@ import styles from '../styles/Home.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
-import CardDeck from 'react-bootstrap/CardDeck';
-import CardGroup from 'react-bootstrap/CardGroup';
-import CardColumns from 'react-bootstrap/CardColumns';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faHome,
   faInfoCircle,
   faCode,
   faEdit,
