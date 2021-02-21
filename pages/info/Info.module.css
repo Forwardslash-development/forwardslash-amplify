@@ -9,13 +9,6 @@
   height: 360px;
   min-width: 485px;
 }
-.subtitle {
-  color: #fff;
-  font-size: 3rem;
-  font-weight: bold;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000066;
-}
 .code {
   color: #fff;
   font-size: 1.5rem;
@@ -26,4 +19,113 @@
   padding-right: 0.25em;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000066;
+}
+.subtitle {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000066;
+}
+.infoRow {
+  margin-bottom: 1rem;
+  width: 100vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+.infoCol {
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.missionCard {
+  background-color: #fff;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.missionCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+}
+.missionIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.goalsCard {
+  background-color: #fff;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.goalsCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+}
+.goalsIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.valuesCard {
+  background-color: #fff;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.valuesCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+}
+.valuesIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.workCard {
+  background-color: #fff;
+  text-align: left;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #6ccff6;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.workCard:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in-out;
+  box-shadow: 1px 1px 2px rgba(74, 74, 74, 0.35);
+  border-radius: 1em/1em;
+}
+.workIcon {
+  color: #000066;
+  border-radius: 10px 10px 0 0;
+  background-color: #6ccff6;
+  height: 200px;
+  padding: 1.5em;
+}
+.cbtext {
+  padding-bottom: 1rem;
 }
